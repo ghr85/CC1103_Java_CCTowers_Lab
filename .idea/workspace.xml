@@ -439,7 +439,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553686052831" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553686154600" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -453,11 +453,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestBedroom.hasRoomNumber">
+  <component name="RunManager" selected="JUnit.TestBedroom.hasCapacity">
     <configuration name="All in CodeClanTowers_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeClanTowers_test" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestBedroom.hasCapacity" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeClanTowers_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestBedroom" />
+      <option name="METHOD_NAME" value="hasCapacity" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -495,9 +505,11 @@
       <item itemvalue="JUnit.TestGuest.hasName" />
       <item itemvalue="JUnit.TestGuest" />
       <item itemvalue="JUnit.TestBedroom.hasRoomNumber" />
+      <item itemvalue="JUnit.TestBedroom.hasCapacity" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestBedroom.hasCapacity" />
         <item itemvalue="JUnit.TestBedroom.hasRoomNumber" />
         <item itemvalue="JUnit.TestGuest.hasName" />
         <item itemvalue="JUnit.TestGuest" />
