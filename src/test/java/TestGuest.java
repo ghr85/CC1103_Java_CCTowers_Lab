@@ -11,7 +11,9 @@ public class TestGuest {
     }
 
     @Test
-    public void hasName{
-        assertEquals("Steve Lovebone",guest.getName());
+    public void hasName(){
+        assertEquals("Stevie Lovebone",guest.getName());
     }
+
+
 }
