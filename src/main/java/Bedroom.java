@@ -27,4 +27,17 @@ public class Bedroom {
     public int getGuestCount(){
         return this.guests.size();
     }
+
+    public void addGuest(Guest guest) {
+        if (this.checkCapacity()) {
+            this.guests.add(guest);
+        }
+    }
+    public boolean checkCapacity() {
+        if (this.guests.size() < this.capacity){
+            return true;
+        } else {
+            return false;
+        }
+    }
 }

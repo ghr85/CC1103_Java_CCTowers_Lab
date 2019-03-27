@@ -33,4 +33,17 @@ public class TestBedroom {
     public void startsWithEmptyGuestArrayList(){
         assertEquals(0,bedroom.getGuestCount());
     }
+
+    @Test
+    public void canAddGuestToRoom_positive(){
+        bedroom.addGuest(guest);
+        assertEquals(1,bedroom.getGuestCount());
+    }
+    @Test
+    public void canAddGuestToRoom_negative(){
+        bedroom.addGuest(guest);
+        bedroom.addGuest(guest);
+        bedroom.addGuest(guest);
+        assertEquals(2,bedroom.getGuestCount());
+    }
 }
