@@ -40,4 +40,8 @@ public class Bedroom {
             return false;
         }
     }
+
+    public void removeGuest() {
+        this.guests.remove(0);
+    }
 }

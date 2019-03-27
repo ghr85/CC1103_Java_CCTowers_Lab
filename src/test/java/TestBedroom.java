@@ -46,4 +46,12 @@ public class TestBedroom {
         bedroom.addGuest(guest);
         assertEquals(2,bedroom.getGuestCount());
     }
+
+    @Test
+    public void canRemoveGuestfromBedoom(){
+        bedroom.addGuest(guest);
+        bedroom.addGuest(guest);
+        bedroom.removeGuest();
+        assertEquals(1, bedroom.getGuestCount());
+    }
 }
