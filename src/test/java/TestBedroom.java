@@ -6,19 +6,26 @@ import static junit.framework.TestCase.assertEquals;
 public class TestBedroom {
     Bedroom bedroom;
     Guest guest;
+
     @Before
-    public void before(){
-        bedroom = new Bedroom(1,2,"double");
+    public void before() {
+        bedroom = new Bedroom(1, 2, "double");
         guest = new Guest("Davie Dipstick");
     }
 
     @Test
-    public void hasRoomNumber(){
-        assertEquals(1,bedroom.getRoomNumber());
+    public void hasRoomNumber() {
+        assertEquals(1, bedroom.getRoomNumber());
     }
 
     @Test
-    public void hasCapacity(){
-        assertEquals(2,bedroom.getCapacity());
+    public void hasCapacity() {
+        assertEquals(2, bedroom.getCapacity());
+    }
+
+
+    @Test
+    public void hasBedroomType() {
+        assertEquals("double", bedroom.getBedroomType());
     }
 }
