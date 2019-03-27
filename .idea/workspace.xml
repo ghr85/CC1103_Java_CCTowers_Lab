@@ -449,7 +449,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553686343876" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553686530246" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -463,7 +463,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestBedroom.hasBedroomType">
+  <component name="RunManager" selected="JUnit.TestBedroom.startsWithEmptyGuestArrayList">
     <configuration name="TestBedroom.hasBedroomType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeClanTowers_test" />
       <option name="PACKAGE_NAME" value="" />
@@ -494,10 +494,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestGuest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestBedroom.startsWithEmptyGuestArrayList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeClanTowers_test" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestGuest" />
+      <option name="MAIN_CLASS_NAME" value="TestBedroom" />
+      <option name="METHOD_NAME" value="startsWithEmptyGuestArrayList" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -514,18 +516,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.TestGuest.hasName" />
-      <item itemvalue="JUnit.TestGuest" />
       <item itemvalue="JUnit.TestBedroom.hasRoomNumber" />
       <item itemvalue="JUnit.TestBedroom.hasCapacity" />
       <item itemvalue="JUnit.TestBedroom.hasBedroomType" />
+      <item itemvalue="JUnit.TestBedroom.startsWithEmptyGuestArrayList" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestBedroom.startsWithEmptyGuestArrayList" />
         <item itemvalue="JUnit.TestBedroom.hasBedroomType" />
         <item itemvalue="JUnit.TestBedroom.hasCapacity" />
         <item itemvalue="JUnit.TestBedroom.hasRoomNumber" />
         <item itemvalue="JUnit.TestGuest.hasName" />
-        <item itemvalue="JUnit.TestGuest" />
       </list>
     </recent_temporary>
   </component>
