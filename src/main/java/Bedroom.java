@@ -44,4 +44,8 @@ public class Bedroom {
     public void removeGuest() {
         this.guests.remove(0);
     }
+
+    public void vacateAllGuests() {
+        this.guests.clear();
+    }
 }
